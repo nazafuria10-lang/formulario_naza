@@ -1,0 +1,129 @@
+ *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+ 
+#contenedor {
+    width: 100%;
+    margin: auto;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#encabezado {
+    background-color:#000000;
+    height: 100px;
+    overflow: hidden;
+}
+
+#logo img {
+    height: 70px; 
+    width: auto;  
+    margin-top: 15px; 
+}
+
+
+body > div {
+    background: #ffffff;                 
+    border-radius: 20px;            
+    padding: 2.5rem;                    
+    width: 100%;                     
+    max-width: 650px;
+    margin: 2rem auto;       
+    box-sizing: border-box;     
+}
+
+h1 {
+    font-size: 38px;         
+    font-weight: 700;      
+    color: #444270;    
+    text-align: center;       
+}
+
+h1 + p {
+    text-align: center;
+    color: #fefefe;         
+    margin-bottom: 18px; 
+    font-size: 18px;
+}
+
+#banner {
+    height: 600px;
+    background-image: url(img/banner.jpg);
+    background-repeat:repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
+button{
+    color: #d01919;
+    border-radius: 5px;
+}
+
+fieldset {
+    background-color: #ffffff;
+    max-width: 650px;
+    margin: 1.5rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #444270;
+    padding: 0 10px;
+}
+
+fieldset > div {
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333333;
+}
+
+#entradas img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    text-align: center; 
+    margin-top: 40px; 
+    margin-bottom: 30px; 
+    font-size: 20px;  
+}
+
+footer button {
+    font-size: 18px;
+    padding: 10px 20px; 
+}
+
+#boton-entradas {
+    text-align: center;  
+}
+
+#boton-entradas button {
+    padding: 25px;
+    font-size: 18px; 
+}
